@@ -1,0 +1,24 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "This repository contains Data Structures and Algorithm implementation in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azzarox/Data-Structures-and-Algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azzarox/Data-Structures-and-Algorithms/issues"
+  },
+  "homepage": "https://github.com/Azzarox/Data-Structures-and-Algorithms#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
