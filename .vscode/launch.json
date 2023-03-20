@@ -12,7 +12,8 @@
                 "--timeout",
                 "999999",
                 "--colors",
-                "${workspaceFolder}/Data Structures/*/*.test.js"
+                // "${workspaceFolder}/DataStructures/*/*.test.js" it will run all tests inside DataStructures/SomeFolder/Test file ending on .test.js
+                "${file}" // it will run only the current file
             ],
 
             "internalConsoleOptions": "openOnSessionStart",
