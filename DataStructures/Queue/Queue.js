@@ -35,6 +35,7 @@ class Queue {
 
         if (this.length === 0) {
             this.tail = undefined;
+            return;
         }
 
         return head.value;
