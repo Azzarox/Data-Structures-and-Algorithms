@@ -52,4 +52,19 @@ describe('Stack Test Case', () => {
     it('should return undefined if peek is called on an empty stack', () => {
         expect(stack.peek()).to.be.undefined;
     });
+
+    // New Test:
+    it('should return the last item in the stack after numerous popping and then set this.head to be undefined', () => {
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+
+        expect(stack.pop()).to.equal(30);
+        expect(stack.pop()).to.equal(20);
+        expect(stack.pop()).to.equal(10);
+
+        expect(stack.length).to.equal(0);
+
+        expect(stack.pop()).to.be.undefined;
+    });
 });
