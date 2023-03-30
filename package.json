@@ -1,24 +1,24 @@
 {
-  "name": "dsa",
-  "version": "1.0.0",
-  "description": "This repository contains Data Structures and Algorithm implementation in JavaScript.",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha -u bdd --timeout 999999 --colors '{DataStructures,Algorithms}/*/*.test.js'"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Azzarox/Data-Structures-and-Algorithms.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Azzarox/Data-Structures-and-Algorithms/issues"
-  },
-  "homepage": "https://github.com/Azzarox/Data-Structures-and-Algorithms#readme",
-  "dependencies": {
-    "chai": "^4.3.7",
-    "mocha": "^10.2.0"
-  }
+    "name": "dsa",
+    "version": "1.0.0",
+    "description": "This repository contains Data Structures and Algorithm implementation in JavaScript.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -u bdd --timeout 999999 --colors '{DataStructures,Algorithm,Other}/*/*.test.js'"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Azzarox/Data-Structures-and-Algorithms.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Azzarox/Data-Structures-and-Algorithms/issues"
+    },
+    "homepage": "https://github.com/Azzarox/Data-Structures-and-Algorithms#readme",
+    "dependencies": {
+        "chai": "^4.3.7",
+        "mocha": "^10.2.0"
+    }
 }
