@@ -35,7 +35,8 @@ class Queue {
 
         if (this.length === 0) {
             this.tail = undefined;
-            return;
+            // Fixed to return the correct result when dequing and happens to be the last element
+            return head.value;
         }
 
         return head.value;
