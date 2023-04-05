@@ -1,6 +1,3 @@
-const { expect } = require('chai');
-const { BinaryTree } = require('../../DataStructures/BinaryTree/BinaryTree');
-
 const bfsTraverse = (tree) => {
     const root = tree.root;
 
