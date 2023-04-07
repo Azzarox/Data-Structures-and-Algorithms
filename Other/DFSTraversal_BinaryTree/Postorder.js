@@ -1,6 +1,7 @@
-const { tree } = require("../../utils/tree");
 
 const traverse = (current, path) => {
+ 
+
     if (!current) {
         return path;
     }
@@ -15,6 +16,4 @@ const traverse = (current, path) => {
 const DFSPostorder = (tree) => {
     return traverse(tree, []);
 };
-
-
-console.log(DFSPostorder(tree))
+module.exports = {DFSPostorder}

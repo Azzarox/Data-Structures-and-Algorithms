@@ -1,5 +1,3 @@
-const { tree } = require("../../utils/tree");
-
 const traverse = (current, path) => {
     if (!current) {
         return path;
@@ -16,4 +14,4 @@ const DFSPreorder = (tree) => {
     return traverse(tree, []);
 };
 
-console.log(DFSPreorder(tree))
+module.exports = { DFSPreorder };
