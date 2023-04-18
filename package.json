@@ -4,7 +4,7 @@
     "description": "This repository contains Data Structures and Algorithm implementation in JavaScript.",
     "main": "index.js",
     "scripts": {
-        "test": "mocha -u bdd --timeout 999999 --colors '{DataStructures,Algorithm,Other}/*/*.test.js'"
+        "test": "mocha -u bdd --timeout 999999 --colors '{DataStructures,Algorithms,Other}/*/*.test.js'"
     },
     "repository": {
         "type": "git",
